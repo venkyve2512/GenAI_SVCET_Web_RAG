@@ -25,7 +25,7 @@ load_dotenv()
 
 
 st.set_page_config(page_title="Web RAG with Groq & SerpApi", layout="wide")
-st.image()
+st.image('PragyanAI_Transperent_github.png')
 st.title("Web RAG: Chat with Websites and SerpApi Search")
 
 # Initialize session state for vector store and chat history
