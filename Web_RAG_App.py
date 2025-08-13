@@ -26,7 +26,7 @@ os.environ["SERPAPI_API_KEY"] = st.secrets.get("SERPAPI_API_KEY")
 
 
 st.set_page_config(page_title="Web RAG with Groq & SerpApi", layout="wide")
-
+st.image("PragyanAI_Transperent_github.png")
 st.title("Web RAG: Q&A with Website Content and Google Search")
 
 # Initialize session state and embeddings model
